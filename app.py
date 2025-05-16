@@ -17,6 +17,7 @@ if st.button("Ver histograma"):
     fig = px.histogram(car_data, x="odometer")
     st.plotly_chart(fig, use_container_width=True)
 
+st.write("Usa el siguiente Boton para crear un gráfico intereactivo")
 #Agrega un boton para crear un gráfico intereactivo
 if st.button("Ver gráfico"):
     st.write('Creación de un gráfico para el conjunto de datos de anuncios de venta de coches')
